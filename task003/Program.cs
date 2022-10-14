@@ -3,8 +3,6 @@
 // 2 => "-2, -1, 0, 1, 2"
 Console.Clear();
 int input;
-//int output;
-//int raschet;
 int cycle1 = 0;
 int cycle2 = 1;
 int predel1;
