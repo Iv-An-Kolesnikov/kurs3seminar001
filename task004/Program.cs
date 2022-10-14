@@ -7,6 +7,7 @@ int input;
 int number = 0;
 Console.WriteLine("Введите трехзначное число");
 input = Convert.ToInt32(Console.ReadLine());
+if (input < 0) input = input * (-1);
 if ((input > 99) & (input < 1000)) 
 {
     number = input % 10;
